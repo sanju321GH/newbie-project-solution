@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;700;900&family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Red Hat Display";
+}
+p{
+    font-weight: 300;
+}
+#container{
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    width: 450px;
+    height: 430px;
+    padding-top: 250px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+}
+#box{
+    width: 410px;
+    height: 90px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+#Change{
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    transition: 0.2s;
+    font-weight: 900;
+    height: 20px;
+}
+button{
+    width: 410px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 900;
+}
+a:hover{
+    color: hsl(245, 75%, 52%);
+
+}
+button:hover{
+    cursor: pointer;
+}
+#but1{
+    color: white;
+    letter-spacing: 1px;
+    background-color: hsl(245, 75%, 52%);
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+#but1:hover{
+   background-color: hsl(245, 51%, 67%);
+}
+#cancel{
+    text-decoration: none;
+    position: absolute;
+     left: 40%;
+     bottom: 40px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+html{
+    height: 111%;
+}
